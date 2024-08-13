@@ -1,0 +1,25 @@
+# macOS specific files
+.DS_Store
+
+# JetBrains IDE files
+.idea/
+
+# Build directories (e.g., for C#, Node.js, etc.)
+bin/
+obj/
+node_modules/
+
+# Logs
+*.log
+
+# User-specific Visual Studio Code settings
+.vscode/
+
+# Visual Studio solution user-specific settings
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Other potentially unwanted files
+.env
