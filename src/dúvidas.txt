@@ -1,0 +1,6 @@
+1) como fica o objeto request de comunication quando tenho um parâmetro que é passado pela rota? Ex:
+https://localhost:3829/api/ExtratoDetalhamento/19381-12938-12890/
+Esse id que vai na rota vai no objeto de request também?
+R: O id vai só na rota, não vai no objeto de request do projeto communication
+
+
