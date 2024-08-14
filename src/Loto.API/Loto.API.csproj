@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <InvariantGlobalization>true</InvariantGlobalization>
+        <RootNamespace>LotoBackend.API</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Loto.Application\Loto.Application.csproj" />
+      <ProjectReference Include="..\Loto.Communication\Loto.Communication.csproj" />
+      <ProjectReference Include="..\Loto.Exception\Loto.Exception.csproj" />
+      <ProjectReference Include="..\Loto.Infrastructure\Loto.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

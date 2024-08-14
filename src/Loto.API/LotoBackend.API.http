@@ -1,0 +1,6 @@
+@LotoBackend.API_HostAddress = http://localhost:5016
+
+GET {{LotoBackend.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
